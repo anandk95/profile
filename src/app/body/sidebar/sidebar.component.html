@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="" *ngIf="pageInfo['showProfile']"><a href="#profile">Profile</a></li>
+        <li class="" *ngIf="pageInfo['showExperiences']"><a href="#experiences">Experiences</a></li>
+        <li class="" *ngIf="pageInfo['showAbilities']"><a href="#abilities">Abilities</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="" *ngIf="pageInfo['showProjects']"><a href="#projects">Projects</a></li>
+        <li class="" *ngIf="pageInfo['showAwards']"><a href="#awards">Awards</a></li>
+        <li class="" *ngIf="pageInfo['showContact']"><a href="#contact">Contact</a></li>
+        <li class="" *ngIf="pageInfo['showContact']"><a href="#contact"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
